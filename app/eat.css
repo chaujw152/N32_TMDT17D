@@ -1,0 +1,484 @@
+/*
+ căn chỉnh lệnh menu
+*/
+
+*{
+  margin: 0;
+ padding: 0;
+}
+body {
+   font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-size: 12px;
+  line-height:1.42857143;
+  color: black;
+   background-image: url('https://cdn.glitch.global/8a6501e6-46d8-411d-926c-0b4871366738/Green%20Aesthetic%20Thesis%20Defense%20Presentation%20(5).png?v=1714159567826');
+}
+p{
+  font-size:13px;
+  font-family: Arial;
+}
+
+/* 
+chỉnh nền , chỉnh khoảng cách, màu chữ, khi click vào thì sẽ đổi màu nền 
+*/
+#menu ul {
+  background: White ;
+  height: 75px;
+  list-style-type: none;
+  text-align: center;
+}
+#menu li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 120px;
+  height: 60px;
+  line-height: 50px;
+}
+#menu ul li a {
+  text-decoration:none;
+  color: black;
+  display: block;}
+#menu ul li a:hover {
+
+  color: green;
+}
+button {  background-color:green; border: none;  
+  color: white;  padding: 20px 10px;  
+  display: inline-block;  font-size: 12px;
+text-decoration: none;border-radius: 4px;
+margin-right:10px;}
+
+ {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow chuyển cảnh */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Nút tiếp theo và trước đó */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Đặt "nút tiếp theo" ở bên phải */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* 
+Khi di chuột, thêm màu nền đen với một chút nhìn xuyên qua */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* dấu chấm */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin-bottom: 30px;
+  background-color: green;
+  border-radius: 100%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Hoạt hình mờ dần */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* Trên màn hình nhỏ hơn, hãy giảm kích thước văn bản */
+@media only screen and (max-width: 100px) {
+  .prev, .next,.text {font-size: 11px}
+}
+/* lệnh tìm kiếm */
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #cccccc;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 30px 30px; 
+  background-repeat: no-repeat;
+  padding: 12px 4px 12px 8px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 200px;
+}
+/* CHẤM*/
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style: none;
+  }
+  body {
+    color: #000;
+    font-family: Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  .clearfix {
+    zoom: 1;
+  }
+  .clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+  }
+  
+  /* Layout */
+  .news {
+    margin: 30px auto;
+    width: 1000px;
+  }
+  .news .image-news {
+    float: left;
+    width: 300px;
+  }
+  .news .info-news {
+    float: right;
+    width: 640px;
+  }
+  .news .info-news h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px 0 12px;
+    text-transform: uppercase;
+  }
+  .news .info-news .inner {
+    margin-bottom: 18px;
+  }
+  .news .info-news p {
+    margin-bottom: 30px;
+  }
+  .news .info-news .detail a {
+    border: 2px solid #333;
+    border-radius: 4px;
+    color: #333;
+    display: inline-block;
+    padding: 5px 20px 1px;
+    min-width: 70px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s all;
+  }
+  .news .info-news .detail a:hover {
+    background-color: black;
+    color: #fff;
+  }
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.main {
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+ .clearfix {
+    zoom: 1;
+  }
+  .clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+  }
+  
+  /* Layout */
+  .service {
+    margin: 30px auto;
+    width: 1140px;
+  }
+  .service h2 {
+    color: #1f1f1f;
+    font-size: 40px;
+    margin-bottom: 17px;
+    text-align: center;
+  }
+  .service .lead-text {
+    font-size: 18px;
+    margin-bottom: 57px;
+    text-align: center;
+  }
+  .service .service-list li {
+    background-color: #fff;
+    float: left;
+    margin-right: 30px;
+    min-height: 420px;
+    width: 360px;
+  }
+  .service .service-list li:nth-child(3n) {
+    margin-right: 0;
+  }
+  .service .service-list li .inner {
+    padding: 12px 15px;
+  }
+  .service .service-list li h3 {
+    color: #1f1f1f;
+    font-size: 24px;
+    margin-bottom: 3px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style: none;
+  }
+  body {
+    color: #000;
+    font-family: Helvetica,sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+  }
+  .clearfix {
+    zoom: 1;
+  }
+  .clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+  }
+  
+  /* Layout */
+  #footer {
+    background-color: #1f1f1f;
+    color: #999;
+    padding: 60px 0 28px;
+  }
+  #footer .inner {
+    margin: 0 auto;
+    width: 1140px;
+  }
+  #footer .inner h3 {
+    color: #fff;
+    margin-top: 3px;
+    margin-bottom: 25px;
+  }
+  #footer .inner .about-us {
+    float: left;
+    width: 360px;
+  }
+  #footer .inner .about-us .logo {
+    margin-bottom: 42px;
+  }
+  #footer .inner > div {
+    float: left;
+    margin-right: 30px;
+  }
+  #footer .inner > div:last-child {
+    margin-right: 0;
+  }
+  #footer .inner .info-link,
+  #footer .inner .contact-detail {
+    width: 260px;
+  }
+  #footer .inner .social {
+    width: 165px;
+  }
+  #footer .inner ul.link-list li {
+    border-bottom: 1px dashed #363636;
+    font-size: 15px;
+    margin-bottom: 11px;
+    padding-bottom: 9px;
+  }
+  #footer .inner ul.link-list li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+  #footer .inner ul.link-list li a {
+    color: #999;
+    text-decoration: none;
+    transition: 0.3s color;
+  }
+  #footer .inner ul.link-list li a:hover {
+    color: #fff;
+  }
+  #footer .inner ul.link-list li i {
+    border-right: 1px dashed #363636;
+    padding-right: 16px;
+    margin-right: 14px;
+    font-size: 14px;
+  }
+  #footer .inner ul.link-list li address {
+    font-style: normal;
+  }
+
+
+
+.echbay-sms-messenger div.phonering-alo-zalo, 
+.echbay-sms-messenger div.phonering-alo-alo {
+	background-color:#0084ff
+}
+.echbay-sms-messenger div.phonering-alo-sms {
+	background-color:#f60
+}
+.echbay-sms-messenger div.phonering-alo-messenger {
+	background-color:#e60f1e
+}
+ 
+.echbay-sms-messenger {
+	width:45px
+}
+.echbay-sms-messenger a {
+	line-height:45px;
+        color: transparent;
+display:block;
+}
+.echbay-sms-messenger {
+	display:block
+}
+.echbay-sms-messenger div.phonering-alo-zalo {
+	display: block
+}
+ 
+.echbay-sms-messenger div.phonering-alo-alo {
+    background-image: url(http://codfe.com/wp-content/uploads/2020/08/call.png);
+}
+.echbay-sms-messenger div.phonering-alo-sms {
+    background-image: url(http://codfe.com/wp-content/uploads/2020/08/mail.png);
+    background-color: #f60;
+    background-size: 60%;
+}
+.echbay-sms-messenger div.phonering-alo-zalo {
+    background-image: url(http://codfe.com/wp-content/uploads/2020/08/zalo.png);
+}
+.echbay-sms-messenger div.phonering-alo-messenger {
+    background-image: url(http://codfe.com/wp-content/uploads/2020/08/messenger.png);
+    background-color: blue;
+}
+.echbay-sms-messenger div {
+    margin: 14px 0;
+    background: #0084FF center no-repeat;
+    background-size: 70%;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px #888;
+}
+ 
+.echbay-sms-messenger {
+    text-align: center;
+    right:20px;
+    position: fixed;
+    bottom: 20px;
+    z-index: 999;
+}
+.container {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.review {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.review img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.review h2 {
+    margin: 0 0 5px 0;
+    font-size: 18px;
+}
+
+.review p {
+    margin: 0;
+    font-style: italic;
+    color: #666;
+}
+
+
+.stars {
+  color: orange;
+  font-size: 20px;
+}
+
+.star {
+  display: inline-block;
+  
+}
+
+.input-fields {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin: 0 10px;
+    width: 150px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#result {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+p{
+  text-align: justify;
+}

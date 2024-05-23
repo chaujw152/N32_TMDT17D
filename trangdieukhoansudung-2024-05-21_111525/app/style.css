@@ -1,0 +1,28 @@
+h1{
+    font-family: Arial;
+    font-size: 40px;
+    text-align: center;
+    color: #339900;
+    
+}
+
+h2{
+    font-family: Arial;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+    color: #339900;
+   text-align: justify;
+   margin-left:100px;
+   margin-right:100px;
+}
+p{
+    font-family: Arial;
+    font-size:18px;
+    font-style: normal;
+    color:#4F4F4F;
+    text-align: justify;
+    margin-left:100px;
+    margin-right:100px;
+}
+

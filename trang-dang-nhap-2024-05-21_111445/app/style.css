@@ -1,0 +1,131 @@
+
+/* Bordered form */
+form {
+  margin-top:20px;
+  border: 3px solid #f1f1f1;
+  width: 30%;
+   
+
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+  
+}
+p{
+  
+    float:right;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+ 
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+.psw {
+  float: right;
+}
+a:hover{
+  color:red
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+h1{font-family: Arial;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+    color:#04AA6D;
+    text-transform: uppercase}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  background: #CCFFCC;
+  background-image: url('https://cdn.glitch.global/ed87e1fb-2a3f-47ab-a8f9-0a06ec8e18c5/Brown%20Aesthetic%20Linktree%20Background%20(3).png?v=1715359638805'); /* Thay 'ten-file-hinh-anh.jpg' bằng đường dẫn và tên thực của hình ảnh bạn muốn sử dụng */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Độ trong suốt của background container */
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.nutFB{
+  width:165px;
+  padding: 2px 10px;
+}
+
+
+.nutGG{
+  width:165px;
+  padding: 2px 10px;
+}
+
+.close i{
+  color:#339900;
+  margin-left:330px;
+  margin-top:-20px;
+}
+.close i:hover{
+  color:#FF3300;
+}
+a{
+  text-decoration:none
+  
+}
+
+

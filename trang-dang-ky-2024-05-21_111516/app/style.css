@@ -1,0 +1,127 @@
+/* Bordered form */
+form {
+  margin-top:10px; /* điều chỉnh khoảng cách của bảng từ trên xuống*/
+  margin-buton:30px; /* điều chỉnh khoảng cách của bảng từ dưới lên*/
+  boder: 3px solid #f1f1f; /* hình dạng hộp */
+  width:40%; /* điều chỉnh độ rộng của hộp */
+   
+
+}
+border{
+  style:3px solid #f1f1f;
+}
+input[type=text], input[type=password],input[type=rePassword], input[type=text], 
+input[type=email],input[type=tel] {
+  width: 100%;  /* điều chỉnh độ rộng */
+  padding: 12px 20px; /* điều chỉnh kích thước dài rộng*/
+  margin: 8px 0;
+  display: inline-block; 
+  border: 2px solid #cccccc;/*dạng hộp*/
+  box-sizing: border-box;
+  
+}
+
+input[type=date],{
+  width: 50%;
+  padding: 15px 30px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #cccccc;
+  box-sizing: border-box; 
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;/*màu sắc*/
+  color: white;
+  padding: 14px 20px;/* điều chỉnh độ dài và độ rộng*/
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;/* độ đậm nhạt */
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 20px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+h1{font-family: Arial;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+    color:#04AA6D;
+    text-transform: uppercase}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 120vh;
+  background: #CCFFCC;
+  background-image: url('https://cdn.glitch.global/df29cbec-9208-4199-b6a1-ba6ffbac36c9/Brown%20Aesthetic%20Linktree%20Background%20(3).png?v=1715359613010'); /* Thay 'ten-file-hinh-anh.jpg' bằng đường dẫn và tên thực của hình ảnh bạn muốn sử dụng */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Độ trong suốt của background container */
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.gender-options input[type="radio"] { /* căn chỉnh nút giới tính*/
+  display: inline-block;
+  margin-right:10px;
+}
+
+.gender-options label {
+  display: inline-block;
+  margin-right:3px;
+}
+.close i{
+  color:#339900;
+  margin-left:450px;
+  margin-top:-20px;
+}
+.close i:hover{
+  color:#FF3300;
+}
+
